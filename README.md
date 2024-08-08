@@ -26,7 +26,8 @@ markers on the map.
 
 ## Installation
 
-To run this Shiny app locally, follow these steps:
+This app is available at the following link: https://claraft.shinyapps.io/appsilon_assignment/
+If you want to run this Shiny app locally, please follow these steps:
 
 1.  Clone the repository:
 
