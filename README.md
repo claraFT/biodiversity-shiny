@@ -13,9 +13,7 @@ markers on the map.
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Data](#data)
-- [Contributing](#contributing)
-- [License](#license)
+- [Limitations and future work](#limitations_and_future_work)
 
 ## Features
 
