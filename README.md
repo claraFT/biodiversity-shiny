@@ -59,6 +59,14 @@ To run this Shiny app locally, follow these steps:
 5.  Select specific time windows to focus on observation groups over
     time
 
+## Testing
+
+To run unit test for this repo run then following code
+
+<!-- -->
+
+    test_dir("tests/testthat")
+
 ## Limitations and future work
 
 Due to time constraints, this application has limited features. Below
@@ -74,13 +82,15 @@ are some suggestions for improvement:
     using queries, thereby creating a faster, more comprehensive Shiny
     application.
 
-2.  **Enhanced Event Visualization**: The time slider could be made
+2. **Improve tests**: include unit test for map and plot modules, and include more specific tests for shiny functions.
+
+3.  **Enhanced Event Visualization**: The time slider could be made
     reactive to adapt to the species selected in the first filter.
     Additionally, integrating a play button to display how observations
     change over time on the map would provide a more dynamic and
     informative visualization.
 
-3.  **Aesthetic Improvements**: Using a CSS file to modify the app’s
+4.  **Aesthetic Improvements**: Using a CSS file to modify the app’s
     appearance could make it more aesthetically pleasing, personalized,
     and user-friendly. This would enhance the overall user experience.
 
