@@ -83,7 +83,7 @@ are some suggestions for improvement:
     using queries, thereby creating a faster, more comprehensive Shiny
     application.
 
-2. **Enhance Testing**: Expand the unit tests to cover the map and plot modules more thoroughly, and develop more targeted tests specifically for Shiny functions to ensure robust and reliable functionality. 
+2. **Improve Testing**: Expand the unit tests to cover the map and plot modules more thoroughly, and develop more targeted tests specifically for Shiny functions to ensure robust and reliable functionality. 
 
 4.  **Enhanced Event Visualization**: The time slider could be made
     reactive to adapt to the species selected in the first filter.
@@ -93,7 +93,7 @@ are some suggestions for improvement:
 
 5.  **Aesthetic Improvements**: Using a CSS file to modify the app’s
     appearance could make it more aesthetically pleasing, personalized,
-    and user-friendly. This would enhance the overall user experience.
+    and user-friendly. This would improve the overall user experience.
 
 These enhancements would significantly increase the application’s
 functionality and user engagement.
