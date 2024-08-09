@@ -39,7 +39,7 @@ If you want to run this Shiny app locally, please follow these steps:
 
 <!-- -->
 
-    setwd("~/biodiversity_app")
+    setwd("~/biodiversity-shiny-appsilon")
     install.packages(c("shiny", "leaflet", "ggplot2", "dplyr", "tidyr", "RColorBrewer", "testthat"))
     library(shiny)
 
@@ -57,7 +57,7 @@ If you want to run this Shiny app locally, please follow these steps:
     selected species.
 4.  View the timeline plot to know when the different species
     observations happened.
-5.  Select specific time windows to focus on observation groups over
+5.  Select specific time windows to focus on species observation groups over
     time
 
 ## Testing
@@ -83,15 +83,15 @@ are some suggestions for improvement:
     using queries, thereby creating a faster, more comprehensive Shiny
     application.
 
-2. **Improve tests**: include unit test for map and plot modules, and include more specific tests for shiny functions.
+2. **Enhance Testing**: Expand the unit tests to cover the map and plot modules more thoroughly, and develop more targeted tests specifically for Shiny functions to ensure robust and reliable functionality. 
 
-3.  **Enhanced Event Visualization**: The time slider could be made
+4.  **Enhanced Event Visualization**: The time slider could be made
     reactive to adapt to the species selected in the first filter.
     Additionally, integrating a play button to display how observations
     change over time on the map would provide a more dynamic and
     informative visualization.
 
-4.  **Aesthetic Improvements**: Using a CSS file to modify the app’s
+5.  **Aesthetic Improvements**: Using a CSS file to modify the app’s
     appearance could make it more aesthetically pleasing, personalized,
     and user-friendly. This would enhance the overall user experience.
 
